@@ -18,6 +18,6 @@ $("input[type='text']").keypress(function (event)
     {
         var input = $(this).val();
         $(this).val("");
-        $("ul").append("<li><span>X </span>" + input + "</li>");
+        $("ul").append("<li><span><i class='fa fa-trash'></i></span>" + input + "</li>");
     }
 });

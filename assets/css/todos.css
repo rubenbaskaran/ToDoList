@@ -1,5 +1,8 @@
 body {
     font-family: Roboto;
+    background: #ED4264;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -10,6 +13,10 @@ h1 {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
+}
+
+.fa-plus {
+    float: right;
 }
 
 ul {
@@ -23,6 +30,16 @@ li {
     height: 40px;   
     line-height: 40px;
     color: #666;
+}
+
+span {
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 40px;
+    display: inline-block;
 }
 
 li:nth-child(2n){
